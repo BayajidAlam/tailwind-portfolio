@@ -56,7 +56,7 @@
         </h1>
 
         <!-- manu bar  -->
-        <div class="basis-1/2 cursor-pointer justify-end text-black dark:text-white sm:hidden flex">
+        <div id="mobile_btn" class="basis-1/2 cursor-pointer justify-end text-black dark:text-white sm:hidden flex">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
             stroke="currentColor" class="w-6 h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -71,9 +71,25 @@
         </div>
       </div>
 
-      <nav>
-        <ul>
-          <li><a href="">Home</a></li>
+      <!-- main menu  -->
+      <nav class="sm:flex w-full sm:w-auto" id="main_menu">
+        <ul class="flex w-full sm:w-auto justify-end py-3 flex-col sm:flex-row dark:sm:bg-gray-900">
+          <li class="ml-0 sm:ml-8 text-center"><a
+              class="font-semibold uppercase text-md text-indigo-900 hover:text-indigo-500 hover:transition-colors dark:text-indigo-400 hover:dark:text-indigo-200"
+              href="">Home</a></li>
+          <li class="ml-0 sm:ml-8 text-center"><a
+              class="font-semibold uppercase text-md text-indigo-900 hover:text-indigo-500 hover:transition-colors dark:text-indigo-400 hover:dark:text-indigo-200"
+              href="">Service</a></li>
+          <li class="ml-0 sm:ml-8 text-center"><a
+              class="font-semibold uppercase text-md text-indigo-900 hover:text-indigo-500 hover:transition-colors dark:text-indigo-400 hover:dark:text-indigo-200"
+              href="">Brands</a></li>
+          <li class="ml-0 sm:ml-8 text-center"><a
+              class="font-semibold uppercase text-md text-indigo-900 hover:text-indigo-500 hover:transition-colors dark:text-indigo-400 hover:dark:text-indigo-200"
+              href="">Portfolio</a></li>
+          <li class="ml-0 sm:ml-8 text-center"><a
+              class="font-semibold uppercase text-md text-indigo-900 hover:text-indigo-500 hover:transition-colors dark:text-indigo-400 hover:dark:text-indigo-200"
+              href="">Blog</a></li>
+          <li class="ml-0 sm:ml-8 text-center mt-3 sm:mt-0"><a class="btn" href="">Let's Talk</a></li>
         </ul>
 
         <div
